@@ -1,0 +1,186 @@
+body{
+font-family: 'Roboto Serif', serif;
+
+}
+
+
+/* The device with borders */
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 740px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+  }
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+  }
+  
+  /* The screen (or content) of the device */
+  .smartphone .content {
+      display: flex;
+      flex-direction: column;
+    width: 360px;
+    height: 740px;
+    background: white;
+  }
+
+  .a{
+    flex-direction: row;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 10px;
+}
+  
+
+  .b{
+      flex-direction: row;
+      display: flex;
+      align-content: space-between;
+      justify-content: space-between;
+      margin: 10px;
+  }
+  .b .circle{
+      display:flex ;
+      justify-content:center ;
+      align-items: center;
+      align-content: center;
+      border-radius: 25px;
+      border-style:solid ;
+      border-color: #B6B5B8;
+      width: 90px;
+      height: 30px;
+      border-width: thin;
+  }
+  
+  .c {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+
+  span #ca{
+      margin-top: 10px;
+
+  }
+   #cb{
+      color:#B6B5B8 ;
+  }
+
+  .box{
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      display: flex;
+      align-self: center;
+      border-style:solid ;
+      border-radius: 25px;
+      width: 300px;
+      height: 200px;
+      border-width:thin ;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+
+  .box img{
+    border-radius: 25px 0px 0px 25px;
+      
+  }
+  .box ion-icon{
+      margin-right:30px ;
+      font-size: 30px;
+
+
+  }
+
+  .d{
+      margin-top: 14px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+   
+      align-content: center;
+      
+  }
+  .d .box2{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      justify-content: space-between;
+      align-content: center;
+  }
+  #daa{
+      color: #B6B5B8;
+  }
+
+  .db{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      background-color: #EFEFEF;
+      height: 200px;
+      width: 150px;
+  }
+
+
+  .e{
+      display: flex;
+      flex-direction: row;
+     
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      
+     
+  }
+  .e #ea{ 
+      margin-top: 10px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      border-style:solid ;
+      border-radius:25px ;
+      background-color: black; 
+      width: 300px;
+      height: 50px;
+  }
+
+  
